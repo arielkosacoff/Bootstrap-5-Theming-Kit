@@ -1,8 +1,64 @@
 // #########################################################
-//            COPY BOOTSTRAP VARIABLES YOU NEED TO OVERIDE INTO THIS FILE            
+//            COPY BOOTSTRAP VARIABLES YOU NEED TO OVERIDE INTO THIS FILE
 //              WE HAVE AFEW OVERIDES ALREADY
 // #########################################################
-            
-// COPY VARIABLES YOU WANT TO OVRIDE HERE
+
+$ofek1: #1796a1 !default;
+$ofek2: #79bd9a !default;
+
+$colors: (
+  "ofek1": $ofek1,
+  "ofek2": $ofek2,
+) !default;
+
+$primary: $ofek1 !default;
+$secondary: $ofek2 !default;
+
+$ofek1-100: tint-color($ofek1, 80%) !default;
+$ofek1-200: tint-color($ofek1, 60%) !default;
+$ofek1-300: tint-color($ofek1, 40%) !default;
+$ofek1-400: tint-color($ofek1, 20%) !default;
+$ofek1-500: $ofek1 !default;
+$ofek1-600: shade-color($ofek1, 20%) !default;
+$ofek1-700: shade-color($ofek1, 40%) !default;
+$ofek1-800: shade-color($ofek1, 60%) !default;
+$ofek1-900: shade-color($ofek1, 80%) !default;
+
+$ofek2-100: tint-color($ofek2, 80%) !default;
+$ofek2-200: tint-color($ofek2, 80%) !default;
+$ofek2-200: tint-color($ofek2, 60%) !default;
+$ofek2-300: tint-color($ofek2, 40%) !default;
+$ofek2-400: tint-color($ofek2, 20%) !default;
+$ofek2-500: $ofek2 !default;
+$ofek2-600: shade-color($ofek2, 20%) !default;
+$ofek2-700: shade-color($ofek2, 40%) !default;
+$ofek2-800: shade-color($ofek2, 60%) !default;
+$ofek2-900: shade-color($ofek2, 80%) !default;
+
+$ofek1s: (
+  "ofek1-100": $ofek1-100,
+  "ofek1-200": $ofek1-200,
+  "ofek1-300": $ofek1-300,
+  "ofek1-400": $ofek1-400,
+  "ofek1-500": $ofek1-500,
+  "ofek1-600": $ofek1-600,
+  "ofek1-700": $ofek1-700,
+  "ofek1-800": $ofek1-800,
+  "ofek1-900": $ofek1-900,
+) !default;
+
+$ofek2s: (
+  "ofek2-100": $ofek2-100,
+  "ofek2-200": $ofek2-200,
+  "ofek2-300": $ofek2-300,
+  "ofek2-400": $ofek2-400,
+  "ofek2-500": $ofek2-500,
+  "ofek2-600": $ofek2-600,
+  "ofek2-700": $ofek2-700,
+  "ofek2-800": $ofek2-800,
+  "ofek2-900": $ofek2-900,
+) !default;
+
+$min-contrast-ratio: 1 !default;
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
